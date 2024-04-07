@@ -15,7 +15,7 @@ const WorkoutOTD = () => {
         <ImageBackground source={workOTD} className="flex-1 justify-center items-center " resizeMode="cover">
           <View>
             <Text
-              className="text-white text-2xl tracking-tighter"
+              className="text-white/70 text-2xl tracking-tighter"
               style={{
                 fontFamily: "Lato_400Regular",
               }}

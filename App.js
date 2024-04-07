@@ -7,6 +7,7 @@ import WorkoutScreen from "./src/Screens/WorkoutScreen";
 import TimerScreen from "./src/Screens/TimerScreen";
 import CalculationScreen from "./src/Screens/CalculationScreen";
 import { MaterialCommunityIcons, Ionicons } from "@expo/vector-icons";
+import ExerciseScreen from "./src/Screens/ExerciseScreen";
 
 const Tab = createBottomTabNavigator();
 const Stack = createStackNavigator();
@@ -54,6 +55,7 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator screenOptions={{ headerShown: false }}>
         <Stack.Screen name="Tabnav" component={TabNavigator} />
+        <Stack.Screen name="Exercise" component={ExerciseScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
